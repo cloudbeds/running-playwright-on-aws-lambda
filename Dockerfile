@@ -27,7 +27,7 @@ FROM node:16-alpine3.16@sha256:2c405ed42fc0fd6aacbe5730042640450e5ec030bada7617b
 
 # Installs Chromium package
 RUN apk add --no-cache \
-    chromium=102.0.5005.173-r0 \
+    chromium \
     nss \
     freetype \
     freetype-dev \

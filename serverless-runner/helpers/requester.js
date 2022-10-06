@@ -3,7 +3,7 @@ const AWS = require("aws-sdk")
 const loggers = require('./logger')
 const utils = require('./utils')
 
-const lambda = new AWS.Lambda({ region: "us-east-1" })
+const lambda = new AWS.Lambda({ region: "us-west-2" })
 
 let numFailedTests = 0
 let numPassedTests = 0
